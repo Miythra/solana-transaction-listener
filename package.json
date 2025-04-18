@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-"start": "node listener.js",
+    "start": "node listener.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@solana/web3.js": "^1.98.0",
+    "express": "^5.1.0",
     "sqlite3": "^5.1.7"
   },
   "description": ""
