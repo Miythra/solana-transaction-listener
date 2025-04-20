@@ -133,4 +133,3 @@ function extractFromLogs(logs, key) {
 }
 
 listen();
-
