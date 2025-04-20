@@ -108,6 +108,7 @@ async function listen() {
 
       // Example of parsing sender/receiver/amount from logs (you can improve this)
       const logs = logInfo.logs.join("\n");
+      console.log("🔎 Raw Logs:\n", logs);
       const sender = extractFromLogs(logs, "sender");
       const receiver = extractFromLogs(logs, "receiver");
       const amount = extractFromLogs(logs, "amount");
